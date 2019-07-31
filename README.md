@@ -1,3 +1,5 @@
+# NOT READY YET!
+
 # LzmaForSyDeSdf
 Simplified LZMA compression modeling using SDF MoC and ForSyDe Framework
 
