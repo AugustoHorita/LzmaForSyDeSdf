@@ -14,7 +14,8 @@ $ ghci lzma_proc_net.hs
 The input stream is set inside lzma_proc_net.hs file.
 
 The default input is:  
-## signal "abracadabra"
+
+### signal "abracadabra"
 
 ## Tools info
 The following tools versions were used: 
