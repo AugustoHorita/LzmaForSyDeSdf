@@ -57,6 +57,6 @@ lzF [c] [(dic, pref, n)]
 
 -- LZ actor model
 lzA :: Signal Char -> Signal (Maybe (Maybe Int, Char))
-lzA Sis = Sfc
-  where (Sfc, fb) = actor22SDF (1,1) (1,1) lzF Sis fb'
+lzA sIs = sFc
+  where (sFc, fb) = actor22SDF (1,1) (1,1) lzF sIs fb'
         fb' = delaySDF [([],"",0)] fb
