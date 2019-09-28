@@ -1,15 +1,15 @@
-# NOT READY YET!
-
 # LzmaForSyDeSdf
 Simplified LZMA compression modeling using SDF MoC and ForSyDe Framework
 
 Please, navigate in the directory structure to find the codes.
 
 ## To execute and simulate the model:
+The input stream is set inside lzma_proc_net.hs file.
+The default input is signal "abracadabra"
 
-$ ghci lzmasdf.hs
+$ ghci lzma_proc_net.hs
 
-*LZMASDF> lzmasdf input.txt output.lzma
+*Lzmasdf > lzmaOutTest
 
 
 ## Tools info
